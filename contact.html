@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Request a quote from Stalwart Engineering.">
+  <title>Contact | Stalwart Engineering</title>
+  <link rel="icon" href="public/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="contact">
+  <div data-header></div>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumbs"><a href="index.html">Home</a> / Contact</div>
+        <span class="eyebrow">Request a Quote</span>
+        <h1>Let’s discuss<br><span class="gold">your site</span></h1>
+        <p>Tell us your service, site and timelines — we respond within 24 hours with a comprehensive, compliant quote.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 40px; border-top: none;">
+      <div class="container contact-grid">
+        <!-- Form Panel -->
+        <div class="contact-form-card">
+          <form id="quote-form" class="form-grid">
+            <div class="field">
+              <label for="name">YOUR NAME *</label>
+              <input id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="field">
+              <label for="company">COMPANY / CLIENT</label>
+              <input id="company" name="company" placeholder="Company or Property Name">
+            </div>
+            <div class="field">
+              <label for="email">EMAIL *</label>
+              <input id="email" name="email" type="email" placeholder="you@company.com" required>
+            </div>
+            <div class="field">
+              <label for="phone">PHONE *</label>
+              <input id="phone" name="phone" placeholder="071 519 5694" required>
+            </div>
+            <div class="field">
+              <label for="service">SERVICE NEEDED</label>
+              <select id="service" name="service">
+                <option value="">Select service...</option>
+                <option>Electrical Engineering</option>
+                <option>Renewable Energy &amp; Solar</option>
+                <option>ICT, Networking &amp; Fibre</option>
+                <option>CCTV &amp; Security</option>
+                <option>Mechanical &amp; Auto Electrical</option>
+                <option>Plumbing</option>
+                <option>Plant &amp; Equipment</option>
+                <option>Supply &amp; Delivery</option>
+                <option>Meter Reading</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="site">SITE / LOCATION</label>
+              <input id="site" name="site" placeholder="Clayville / Dawn Park / Louis Trichardt / Other">
+            </div>
+            <div class="field full">
+              <label for="message">PROJECT DETAILS</label>
+              <textarea id="message" name="message" rows="5" placeholder="Scope, compliance needs (COC, CIDB, plumbing), timelines..."></textarea>
+            </div>
+            <div class="field full form-action-row">
+              <button class="btn btn-submit" type="submit">Send Request — via Email</button>
+              <p class="form-footnote">Or email directly: <a href="mailto:Stalwart22eng@gmail.com">Stalwart22eng@gmail.com</a> • Call 071 519 5694</p>
+            </div>
+          </form>
+        </div>
+
+        <!-- Sidebar Details -->
+        <aside class="contact-aside-stack">
+          <!-- Mail Us -->
+          <div class="contact-info-card">
+            <span class="card-eyebrow">MAIL US</span>
+            <a class="card-email-link" href="mailto:Stalwart22eng@gmail.com">Stalwart22eng@gmail.com</a>
+            
+            <div class="location-group">
+              <span class="location-title">GAUTENG — CLAYVILLE</span>
+              <p class="location-address">3135 Phosphate Lane, Clayville<br>Olifantsfontein, 1666</p>
+            </div>
+            <div class="location-group">
+              <span class="location-title">GAUTENG — DAWN PARK</span>
+              <p class="location-address">55 Wattle Street, Dawn Park, 1459</p>
+            </div>
+            <div class="location-group">
+              <span class="location-title">LIMPOPO — LOUIS TRICHARDT</span>
+              <p class="location-address">29 Anderson Street, Louis Trichardt, 1666</p>
+            </div>
+          </div>
+
+          <!-- Call Us -->
+          <div class="contact-info-card">
+            <span class="card-eyebrow">CALL US</span>
+            <div class="phone-primary">071 519 5694</div>
+            <div class="phone-secondary">061 528 4109</div>
+            <div class="phone-role">Managing Director</div>
+          </div>
+
+          <!-- Why Stalwart? -->
+          <div class="contact-info-card">
+            <h3 class="why-title">Why Stalwart?</h3>
+            <p class="why-text">CIDB 10246207 (PE 1GB, 2EB, 1EP, 1SO, 2ME) • ECA • CSD MAAA0954115 • BEE 100% • PIRB • COIDA • ISO — reliable engineering contractor keeping operations live and compliant.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <div data-footer></div>
+  <script src="main.js" defer></script>
+</body>
+</html>

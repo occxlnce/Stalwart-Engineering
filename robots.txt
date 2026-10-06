@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://stalwarteng.netlify.app
+
+# Sitemaps
+Sitemap: https://stalwarteng.netlify.app/sitemap.xml

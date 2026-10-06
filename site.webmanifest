@@ -1,0 +1,16 @@
+{
+  "name": "Stalwart Engineering & Contracting",
+  "short_name": "Stalwart Eng",
+  "description": "Multidisciplinary electrical, mechanical, solar, ICT, and plumbing engineering contractor in South Africa.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffcc00",
+  "icons": [
+    {
+      "src": "public/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
